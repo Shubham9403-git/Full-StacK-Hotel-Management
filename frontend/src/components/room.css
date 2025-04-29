@@ -1,0 +1,150 @@
+/* --- Main container --- */
+.room-list-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  /* --- Title --- */
+  .room-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  /* --- Grid Layout --- */
+  .room-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  /* --- Room Card --- */
+  .room-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease;
+  }
+  
+  .room-card:hover {
+    transform: scale(1.02);
+  }
+  
+  /* --- Room Image --- */
+  .room-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  /* --- Room Info --- */
+  .room-info {
+    padding: 15px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  /* --- Text styles --- */
+  .room-number {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #444;
+    margin-bottom: 10px;
+  }
+  
+  .room-price {
+    font-size: 1rem;
+    color: #28a745;
+    margin-bottom: 10px;
+  }
+  
+  .room-description {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .room-status {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+  }
+  
+  /* --- Book Button --- */
+  .book-button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .book-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .book-button.booked {
+    background-color: grey;
+    cursor: not-allowed;
+  }
+  
+  /* --- Responsive Media Queries --- */
+  
+  /* Mobile */
+  @media (max-width: 600px) {
+    .room-title {
+      font-size: 1.5rem;
+    }
+  
+    .room-info {
+      padding: 10px;
+    }
+  
+    .room-image {
+      height: 150px;
+    }
+  }
+  /* --- Filter Container --- */
+.filter-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.filter-container label {
+  font-size: 1rem;
+  margin-right: 10px;
+  color: #333;
+}
+
+.filter-select {
+  padding: 8px 12px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.filter-select:focus {
+  border-color: #007bff;
+}
+
+  
+  /* Tablet */
+  @media (min-width: 601px) and (max-width: 900px) {
+    .room-grid {
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+  }
+  

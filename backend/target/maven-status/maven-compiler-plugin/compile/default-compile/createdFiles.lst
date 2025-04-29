@@ -1,0 +1,13 @@
+com\nxtstayz\controller\RoomController.class
+com\nxtstayz\repository\RoomJpaRepository.class
+com\nxtstayz\model\Hotel.class
+com\nxtstayz\repository\HotelJpaRepository.class
+com\nxtstayz\service\HotelJpaService.class
+com\nxtstayz\controller\HotelController.class
+com\nxtstayz\repository\RoomRepository.class
+com\nxtstayz\service\RoomJpaService.class
+com\nxtstayz\WebConfig$1.class
+com\nxtstayz\model\Room.class
+com\nxtstayz\repository\HotelRepository.class
+com\nxtstayz\WebConfig.class
+com\nxtstayz\NxtStayzApplication.class

@@ -1,0 +1,12 @@
+E:\NxtStayz\backend\src\main\java\com\nxtstayz\controller\RoomController.java
+E:\NxtStayz\backend\src\main\java\com\nxtstayz\model\Room.java
+E:\NxtStayz\backend\src\main\java\com\nxtstayz\WebConfig.java
+E:\NxtStayz\backend\src\main\java\com\nxtstayz\model\Hotel.java
+E:\NxtStayz\backend\src\main\java\com\nxtstayz\repository\HotelJpaRepository.java
+E:\NxtStayz\backend\src\main\java\com\nxtstayz\repository\RoomJpaRepository.java
+E:\NxtStayz\backend\src\main\java\com\nxtstayz\controller\HotelController.java
+E:\NxtStayz\backend\src\main\java\com\nxtstayz\NxtStayzApplication.java
+E:\NxtStayz\backend\src\main\java\com\nxtstayz\service\RoomJpaService.java
+E:\NxtStayz\backend\src\main\java\com\nxtstayz\repository\HotelRepository.java
+E:\NxtStayz\backend\src\main\java\com\nxtstayz\repository\RoomRepository.java
+E:\NxtStayz\backend\src\main\java\com\nxtstayz\service\HotelJpaService.java
